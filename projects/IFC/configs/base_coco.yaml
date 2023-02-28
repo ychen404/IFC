@@ -14,7 +14,8 @@ DATASETS:
   TRAIN: ("coco_2017_train",)
   TEST: ("coco_2017_val",)
 SOLVER:
-  IMS_PER_BATCH: 32 # adjust as SAMPLING_FRAME_NUM increases
+  # IMS_PER_BATCH: 32 # adjust as SAMPLING_FRAME_NUM increases
+  IMS_PER_BATCH: 4 # adjust as SAMPLING_FRAME_NUM increases
   BASE_LR: 0.0001
   STEPS: (739200,)
   MAX_ITER: 1108800
